@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CUSTOM STYLES*/
+
+.tab-button.active{
+  @apply text-secondary border-b border-secondary;
+}
